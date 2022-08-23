@@ -26,6 +26,10 @@ h1 {
 .flex-index img {
     padding: 5px;
 }
+.flex-index img:hover {
+    transition: 300ms;
+    transform: scale(1.2);
+}
 /* mobile last */
 @media (max-width:550px) {
     .holaMundo {
